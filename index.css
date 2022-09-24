@@ -1,0 +1,130 @@
+body{
+    display: block;
+    min-width: 100vh;
+    font-family: Roboto, Arial, sans-serif;
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: right;
+    width: 30%;
+    height: 80px;
+}
+.white{
+    background-color: #fff;
+}
+.menu{
+    position: sticky; top: 0px;
+    display: block;
+}
+.menu .container-fluid{
+    border-bottom: 0.5px solid #aaa;
+    box-shadow: 10px 12px 10px rgb(131, 130, 130);
+}
+.bar, .logo{
+    display: inline-block;
+    width: 10%;
+    margin: 10px;
+    letter-spacing: 0.01em;
+}
+.bar i, .logo img{
+    cursor: pointer;
+}
+.search-group{
+    display: inline-block;
+    max-width: 35%;
+    margin: 5px;
+}
+.search-group .form-group{
+    border: 1px solid #333;
+    background-color: #aaa;
+}
+.search-group .btn{
+    border-radius: 0;
+    padding: 6px 20px;
+}
+.search-group .form-control{
+    border-radius: 0;
+}
+.form-group input{
+    width: 300px;
+}
+.search-group .fa-microphone{
+    margin: 5px auto;    
+    border: 1px  rgb(131, 130, 130);
+    padding: 13px;border-radius: 50%;
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+}
+.account-group{
+    width: 30%;
+}
+.account-group .cam, .account-group .bell,
+.account-group .account{
+    float: right;
+    width: 10%;
+    display: inline-block;
+    margin: 20px 4px;
+    cursor: pointer;
+    padding: 10px 25px;
+}
+.account-group .cam:hover, .account-group .bell:hover,
+.account-group .account:hover{
+    color: cornflowerblue;
+}
+#scroll{
+    max-width: 6%;padding: 10px 0px;height: 100%;
+    border-left: 1px solid #aaa;
+    box-shadow: 5px 7px 5px rgb(131, 130, 130);
+    scroll-behavior: smooth;display: block;
+}
+#scroll ul, #scroll_1 ul{
+    padding: 0px;
+}
+#scroll .Home, #scroll .khamPha,
+#scroll .subcribe, #scroll .libary{
+    max-width: 100%;
+    list-style: none;
+    padding: 0px 20px;margin: 30px 0px;
+    cursor: pointer;
+}
+.Home span{
+    font-size: 90%;
+    width: 100%;
+}
+#scroll .Home:hover, #scroll .khamPha:hover,
+#scroll .subcribe:hover, #scroll .libary:hover{
+    color: cornflowerblue;
+}
+#scroll_1{
+    max-width: 15%;padding: 20px 0px;height: 100%;
+    border-left: 1px solid #aaa;
+    box-shadow: 5px 7px 5px rgb(131, 130, 130);
+    scroll-behavior: smooth;display: none;
+}
+#scroll_1 .Home, #scroll_1 .khamPha,
+#scroll_1 .subcribe, #scroll_1 .libary{
+    min-width: 35%;
+    list-style: none;
+    padding: 5px 20px;margin: 10px 0px;
+    display: inline-block;
+}
+#scroll_1 span{
+    width: 100%;
+    font-weight: bolder;
+}
+#scroll_1 ul{
+    border-bottom: 1px solid #aaa;
+}
+#scroll_1 .Home:hover, #scroll_1 .khamPha:hover,
+#scroll_1 .subcribe:hover, #scroll_1 .libary:hover,
+.thanhCuon span:hover{
+    color: cornflowerblue;cursor: pointer;
+}
+.dieuKhoan{
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+}
