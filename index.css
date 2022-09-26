@@ -128,3 +128,19 @@ body{
     font-weight: bold;
     color: rgb(59, 59, 59);
 }
+.owl-carousel{
+    float: right;
+    width: 80%;
+    padding: 15px;
+    position: sticky; top: 81px;
+    display: block;
+}
+.owl-carousel .item{
+    font-weight: 550;
+    padding: 0px 30px ;
+}
+.owl-carousel .btn{
+    border: 0.2px #333;width: 100%;
+    background-color: rgb(218, 218, 218);
+    padding: 10px;border-radius: 35%;
+}
