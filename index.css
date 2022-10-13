@@ -102,7 +102,7 @@ body{
     max-width: 15%;padding: 20px 0px;height: 100%;
     border-left: 1px solid #aaa;
     box-shadow: 5px 7px 5px rgb(131, 130, 130);
-    scroll-behavior: smooth;display: none;
+    display: none; overflow-y: auto; height: 100vh;
 }
 #scroll_1 .Home, #scroll_1 .khamPha,
 #scroll_1 .subcribe, #scroll_1 .libary{
